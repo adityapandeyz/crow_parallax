@@ -13,7 +13,7 @@ class Crow extends SpriteAnimationComponent
     await super.onLoad();
 
     final crowAnimation = await gameRef.loadSpriteAnimation(
-      'crow350x400.png',
+      'crow350x400_ishank.png',
       SpriteAnimationData.sequenced(
         amount: 12,
         amountPerRow: 4,
