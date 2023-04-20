@@ -13,7 +13,7 @@ class AirShip extends SpriteComponent with HasGameRef<CrowGame> {
   void onLoad() async {
     await super.onLoad();
 
-    sprite = await gameRef.loadSprite('airship.png');
+    sprite = await gameRef.loadSprite('airship_shiven.png');
     size = Vector2(gameRef.size.y * 600 / 500, gameRef.size.y) * 0.2;
     flipHorizontallyAroundCenter();
     double yPostion = _random.nextDouble() * game.size.y;
